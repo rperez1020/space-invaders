@@ -83,7 +83,7 @@ function moveInvaders(){
 
     if(squares[currentShipIndex].classList.contains('invader')){
         resultDisplay.innerHTML = 'GAME OVER'
-        clearInterval()
+        clearInterval(invadersId)
     }
 
     if(alienInvadersRemoved.length === alienInvaders.length){
